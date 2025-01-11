@@ -1,7 +1,7 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
-} */
+}
 .fira-sans-regular {
     font-family: "Fira Sans", serif;
     font-weight: 400;
@@ -25,7 +25,9 @@
 	width: 100%;
 	height: auto;
 }
-.fix{overflow:hidden;}
+.fix{
+    overflow:hidden;
+}
 .container{
     max-width: 1280px;
     margin: 0 auto;
@@ -34,18 +36,34 @@
 
 /* banner styles */
 
-.banner{
-    width:100%;
+.banner {
+    width: 100%;
     background: #C6E4D6;
     border-radius: 20px;
     display: flex;
+    flex-wrap: wrap;
     padding: 100px 60px;
+    box-sizing: border-box;
     justify-content: space-between;
 }
+
+
 .banner-content{
-    width: 620px;
+    width: 622px;
 }
 
 .banner-img{
     width: 474px;
+}
+
+.description h6{
+    font-size: 24px;
+    color: #6A7972;
+    margin-bottom: 16px;
+}
+.description h2{
+    font-weight: bold;
+    font-size: 57px;
+    margin-bottom: 24px;
+    
 }
