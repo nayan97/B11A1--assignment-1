@@ -9,7 +9,11 @@
   }
 
   /* shere style*/
-
+main p{
+    font-weight: normal;
+    font-size: 16px;
+    color: #4A4D53;
+}
 .button-main{
     background: #006A50;
     color: #fff;
@@ -112,9 +116,6 @@
     margin-top: 10px;
 }
 .vision-item p{
-    font-weight: normal;
-    font-size: 16px;
-    color: #4A4D53;
     margin-top: 10px;
     min-height: 98px;
 }
@@ -155,6 +156,20 @@
 .vision-item:last-child button{
     background: #FFC239;
 }
+.qoute{
+    background: #fff;
+    padding: 24px;
+    margin:26px 0;
+    border-radius: 12px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 28px;
+}
+.qoute h5{
+    padding: 14px 0 0 0;
+    
+}
 
 /*recent news*/
 .news{
@@ -170,6 +185,10 @@
 
 .upper-right{
     padding: 0 48px;
+}
+
+.news button:hover{
+    color: #000;
 }
    
 
