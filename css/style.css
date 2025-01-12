@@ -7,18 +7,32 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  /* shere style*/
+
 .button-main{
     background: #006A50;
     color: #fff;
-    font-weight: semi-bold;
+    font-weight: 600;
     font-size: 18px;
     border: none;
     border-radius: 7px;
     padding: 17px 32px;
 }
+.section-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0e0e0e;
+    margin-bottom: 24px;
+}
 
+.description-portion{
+    color: #565656;
+    font-weight: normal;
+    font-size: 16px;
+}
 .bg-main{
-    background: #D5D6D8;
+    background: #F1F1F3;
 
 }
 .container-full{
@@ -47,7 +61,6 @@
     justify-content: space-between;
 }
 
-
 .banner-content{
     width: 622px;
 }
@@ -66,4 +79,73 @@
     font-size: 57px;
     margin-bottom: 24px;
     
+}
+
+/*styles for vision */
+
+.vision{
+    margin-top: 80px;
+}
+
+.vision-items{
+    display:inline-flex;
+	overflow:hidden;
+
+}
+.vision-item{
+    width:100%;
+    padding:25px 32px 25px 32px;
+    margin-top: 32px;
+    border-radius: 10px;
+}
+.vision-item h4{
+    color:#36383C ;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.vision-item p{
+    font-weight: normal;
+    font-size: 16px;
+    color: #4A4D53;
+    margin-top: 10px;
+    min-height: 98px;
+}
+.vision-item button{
+    padding: 11px 20px;
+    border-radius: 6px;
+    border: none;
+    background: #5490F5;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.vision-item button:hover{
+    color: #000;
+    font-weight: bold;
+
+}
+
+.vision-item:first-child{
+    margin-right: 24px;
+    background:#D5E1F5;
+	
+}
+.vision-item:nth-child(2) {
+    margin-right: 24px;
+    background:#C6E4D6
+	
+}
+.vision-item:last-child{
+	text-align:justify;
+    background:#F7EBCF
+	
+}
+.vision-item:nth-child(2) button{
+    background: #09A15C;
+	
+}
+.vision-item:last-child button{
+    background: #FFC239;
 }
