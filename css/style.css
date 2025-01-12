@@ -39,6 +39,10 @@
     background: #F1F1F3;
 
 }
+.bg-secondary{
+    background: #C6E4D6;
+
+}
 .container-full{
 	width: 100%;
 	height: auto;
@@ -56,7 +60,6 @@
 
 .banner {
     width: 100%;
-    background: #C6E4D6;
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -197,7 +200,7 @@
 }
 
 .donation-input{
-    padding:16px 150px
+    padding:16px 150px 80px 150px;
 
 }
 
@@ -234,4 +237,74 @@ text-align: center;
 
 }
 
+/* subscriptions styles */
+
+.subscriptions{
+   padding: 80px 265px 60px 265px;
+   border-radius: 10px;
+
+}
+
+.sub-input{
+    height: 56px;
+ 
+ }
+
+ .subscriptions p{
+    padding: 24px 88px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.subscriptions h2{
+    font-weight: bold;
+    font-size: 40px;
+  
+}
+
+.subscriptions form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.sub-input {
+    display: flex;
+   
+}
+
+
+.sub-input input{
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px 0 0 7px;
+    outline: none;
+    width: 650px;
+}
+
+
+.sub-input button {
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: #006A50;
+    border: none;
+    border-radius: 0 7px 7px 0;
+    cursor: pointer;
+   
+}
+
+
+.sub-input button:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+.sub-bottom-p{
+    padding-bottom: 0;
+}
 
