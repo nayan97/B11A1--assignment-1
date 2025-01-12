@@ -156,7 +156,49 @@
     background: #FFC239;
 }
 
+/*recent news*/
+.news{
+    padding: 10px 0;
+    background: #fff;
+    padding: 48px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+.upper{
+    display: flex;
+}
 
+.upper-right{
+    padding: 0 48px;
+}
+   
+
+.lower{
+    display: flex;
+
+}
+.upper-left{
+    padding: 0 48px;
+}
+
+.news-img img{
+    border-radius: 15px;
+    max-width: 408px;
+}
+
+.news-title{
+    padding-bottom: 2px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #000;
+}
+.ch-logo img{
+    padding: 12px 0; 
+}
+
+.sort-desc{
+    padding: 12px 0;
+}
 
 /* donations styles */
 .donation-uper{
@@ -242,6 +284,7 @@ text-align: center;
 .subscriptions{
    padding: 80px 265px 60px 265px;
    border-radius: 10px;
+  
 
 }
 
@@ -281,7 +324,7 @@ text-align: center;
     border: none;
     border-radius: 7px 0 0 7px;
     outline: none;
-    width: 650px;
+    width: 568px;
 }
 
 
